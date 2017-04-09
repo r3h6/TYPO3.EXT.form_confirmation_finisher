@@ -1,0 +1,24 @@
+{
+    "name": "r3h6/form-confirmation-finisher",
+    "type": "typo3-cms-extension",
+    "description": "Makes the core form confirmation finisher available for editors.",
+    "keywords": [
+        "TYPO3",
+        "extension",
+        "form",
+        "finisher",
+        "confirmation"
+    ],
+    "homepage": "https://github.com/r3h6/TYPO3.EXT.form_confirmation_finisher",
+    "support": {
+        "issues": "https://github.com/r3h6/TYPO3.EXT.form_confirmation_finisher/issues"
+    },
+    "license": "GPL-3.0+",
+    "require": {
+        "typo3/cms": "^8.7"
+    },
+    "replace": {
+        "form_confirmation_finisher": "self.version",
+        "typo3-ter/form-confirmation-finisher": "self.version"
+    }
+}

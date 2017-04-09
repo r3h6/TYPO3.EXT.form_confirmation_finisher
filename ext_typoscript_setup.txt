@@ -1,0 +1,17 @@
+plugin.tx_form {
+    settings {
+        yamlConfigurations {
+            1491635335 = EXT:form_confirmation_finisher/Configuration/Yaml/BaseSetup.yaml
+            1491635337 = EXT:form_confirmation_finisher/Configuration/Yaml/FormEngineSetup.yaml
+        }
+    }
+}
+module.tx_form {
+    settings {
+        yamlConfigurations {
+            1491635335 = EXT:form_confirmation_finisher/Configuration/Yaml/BaseSetup.yaml
+            1491635336 = EXT:form_confirmation_finisher/Configuration/Yaml/FormEditorSetup.yaml
+            1491635337 = EXT:form_confirmation_finisher/Configuration/Yaml/FormEngineSetup.yaml
+        }
+    }
+}

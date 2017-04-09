@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+    <file source-language="en" datatype="plaintext" original="messages" date="2017-03-29T13:34:30Z">
+        <header>
+            <generator>LFEditor</generator>
+        </header>
+        <body>
+        <trans-unit id="formEditor.elements.Form.editor.finishers.Confirmation.label">
+            <source>Confirmation message</source>
+        </trans-unit>
+        <trans-unit id="formEditor.elements.Form.finisher.Confirmation.editor.message.label">
+            <source>Message</source>
+        </trans-unit>
+        <trans-unit id="tt_content.finishersDefinition.Confirmation.label">
+            <source>Confirmation message</source>
+        </trans-unit>
+        <trans-unit id="tt_content.finishersDefinition.Confirmation.message.label">
+            <source>Message</source>
+        </trans-unit>
+        <trans-unit id="The form has been submitted.">
+            <source>Message</source>
+        </trans-unit>
+        </body>
+    </file>
+</xliff>

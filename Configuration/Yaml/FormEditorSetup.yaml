@@ -1,0 +1,40 @@
+TYPO3:
+  CMS:
+    Form:
+      ########### FORM MANAGER CONFIGURATION ###########
+      formManager:
+        translationFile:
+          10: 'EXT:form/Resources/Private/Language/Database.xlf'
+          20: 'EXT:form_confirmation_finisher/Resources/Private/Language/Database.xlf'
+      ########### FORMEDITOR CONFIGURATION ###########
+      prototypes:
+        standard:
+          formEditor:
+            translationFile:
+              10: 'EXT:form/Resources/Private/Language/Database.xlf'
+              20: 'EXT:form_confirmation_finisher/Resources/Private/Language/Database.xlf'
+          ########### DEFAULT FORM ELEMENT DEFINITIONS ###########
+          formElementsDefinition:
+            Form:
+              formEditor:
+                editors:
+                  900:
+                    selectOptions:
+                      1491637029:
+                        value: 'Confirmation'
+                        label: 'formEditor.elements.Form.editor.finishers.Confirmation.label'
+
+                propertyCollections:
+                  finishers:
+                    50:
+                      identifier: 'Confirmation'
+                      editors:
+                        __inheritances:
+                          10: 'TYPO3.CMS.Form.mixins.formElementMixins.BaseCollectionEditorsMixin'
+                        100:
+                          label: 'formEditor.elements.Form.finisher.Confirmation.editor.header.label'
+                        200:
+                          identifier: 'message'
+                          templateName: 'Inspector-TextareaEditor'
+                          label: 'formEditor.elements.Form.finisher.Confirmation.editor.message.label'
+                          propertyPath: 'options.message'

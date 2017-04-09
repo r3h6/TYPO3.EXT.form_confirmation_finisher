@@ -1,0 +1,22 @@
+TYPO3:
+  CMS:
+    Form:
+      prototypes:
+        standard:
+          formElementsDefinition:
+            Form:
+              renderingOptions:
+                translation:
+                  translationFile:
+                    10: 'EXT:form/Resources/Private/Language/locallang.xlf'
+                    20: 'EXT:form_confirmation_finisher/Resources/Private/Language/locallang.xlf'
+
+          ### FINISHERS ###
+
+          # finishersDefinition:
+            # Confirmation:
+              # implementationClassName: 'TYPO3\CMS\Form\Domain\Finishers\ConfirmationFinisher'
+              # Default value handled over locallang file.
+              # Setting options here seems not to work anyway.
+              # options:
+              #   message: ''

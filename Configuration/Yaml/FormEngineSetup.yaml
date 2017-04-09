@@ -1,0 +1,24 @@
+TYPO3:
+  CMS:
+    Form:
+      prototypes:
+        standard:
+          formEngine:
+            translationFile:
+              10: 'EXT:form/Resources/Private/Language/Database.xlf'
+              20: 'EXT:form_confirmation_finisher/Resources/Private/Language/Database.xlf'
+
+          ### FINISHERS ###
+          finishersDefinition:
+            # Flexform
+            Confirmation:
+              FormEngine:
+                label: 'tt_content.finishersDefinition.Confirmation.label'
+                elements:
+                  message:
+                    label: 'tt_content.finishersDefinition.Confirmation.message.label'
+                    config:
+                      type: 'text'
+                      rows: 5
+                      cols: 50
+                      # enableRichtext: true
